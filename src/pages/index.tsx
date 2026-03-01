@@ -34,7 +34,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={siteConfig.title}
-      description="Research blog of Xtra Computing Group at NUS — big data, distributed systems, and cloud computing.">
+      description="The Xtra Computing Group is working in exciting areas of Big data management systems (with special interests in cloud computing and emerging hardware systems), Parallel and distributed systems and Cloud Computing.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

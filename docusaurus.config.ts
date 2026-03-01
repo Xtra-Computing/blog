@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Xtra Computing Group',
-  tagline: 'Research blog of Xtra Computing Group at NUS',
+  tagline: 'The Xtra Computing Group is working in exciting areas of Big data management systems (with special interests in cloud computing and emerging hardware systems), Parallel and distributed systems and Cloud Computing.',
   favicon: 'img/favicon.ico',
 
   future: {
@@ -31,6 +31,8 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: 'about',
+          path: 'about',
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/Xtra-Computing/blog/tree/main/',
         },
@@ -63,16 +65,19 @@ const config: Config = {
       title: 'Xtra Computing',
       logo: {
         alt: 'Xtra Computing Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
+        srcDark: 'img/logo.png',
+        width: 32,
+        height: 32,
       },
       items: [
+        {to: '/blog', label: 'Blog', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs',
+          label: 'About',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/Xtra-Computing/blog',
           label: 'GitHub',
@@ -87,7 +92,7 @@ const config: Config = {
           title: 'Content',
           items: [
             {label: 'Blog', to: '/blog'},
-            {label: 'Docs', to: '/docs/intro'},
+            {label: 'About', to: '/about/intro'},
           ],
         },
         {
@@ -96,6 +101,10 @@ const config: Config = {
             {
               label: 'GitHub',
               href: 'https://github.com/Xtra-Computing',
+            },
+            {
+              label: 'Hugging Face',
+              href: 'https://huggingface.co/Xtra-Computing',
             },
           ],
         },

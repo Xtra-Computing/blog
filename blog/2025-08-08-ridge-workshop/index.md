@@ -9,7 +9,7 @@ image: ./banner.png
 The Ridge Computing System Workshop — sponsored by [**AMD HACC @ NUS**](https://www.amd-haccs.io/nus.html) and the [**NUS AI Institute**](https://ai.nus.edu.sg/) — convened researchers, engineers, and industry leaders to chart the future of heterogeneous, high-performance systems for big-data analytics and AI.
 
 Through invited keynotes and industry talks, participants explored real-world workloads spanning CPUs, GPUs, and adaptive accelerators; software-hardware co-design for performance-per-watt; and emerging directions in green computing.
-
+<!-- truncate -->
 ## Date
 
 **August 8, 2025 (Friday)**  
@@ -20,8 +20,6 @@ Through invited keynotes and industry talks, participants explored real-world wo
 <a href="https://forms.gle/5QGCgcuK2P9dcGE87" class="button button--primary button--sm" target="_blank" rel="noopener noreferrer">Registration Closed</a>
 
 <!-- ![Venue](./venue.png) -->
-
-<!-- truncate -->
 
 ## Timetable
 

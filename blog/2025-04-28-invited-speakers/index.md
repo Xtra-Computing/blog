@@ -5,7 +5,7 @@ image: ./banner.png
 ---
 
 We are delighted to invite every member to an exclusive seminar featuring research from authors with papers accepted at [**ICLR 2025**](https://iclr.cc/Conferences/2025). This is a unique opportunity to hear firsthand about their latest work and engage in insightful discussions.
-
+<!-- truncate -->
 ## Date
 
 **April 28, 2025 (Friday)**  
@@ -15,7 +15,7 @@ We are delighted to invite every member to an exclusive seminar featuring resear
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4jpIXEIbHI5ULZ_S4ttW2FGfxqiAWuAvDgdw5i5HZ3CTYFw/viewform?usp=dialog" class="button button--primary button--sm" target="_blank" rel="noopener noreferrer">Registration Closed</a>
 
-<!-- truncate -->
+
 
 ## Speakers
 
