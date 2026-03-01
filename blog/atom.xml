@@ -2,43 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.xtra.science/blog</id>
     <title>Xtra Computing Group Blog</title>
-    <updated>2026-03-01T00:00:00.000Z</updated>
+    <updated>2025-08-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.xtra.science/blog"/>
     <subtitle>Xtra Computing Group Blog</subtitle>
     <icon>https://www.xtra.science/img/favicon.ico</icon>
-    <entry>
-        <title type="html"><![CDATA[Welcome to the Xtra Computing Blog]]></title>
-        <id>https://www.xtra.science/blog/2026/03/01/welcome</id>
-        <link href="https://www.xtra.science/blog/2026/03/01/welcome"/>
-        <updated>2026-03-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to the official blog of Xtra Computing Group at the National University of Singapore.]]></summary>
-        <content type="html"><![CDATA[<p>Welcome to the official blog of <strong>Xtra Computing Group</strong> at the National University of Singapore.</p>
-<p>This is a space for lab members, collaborators, and friends to share research ideas, technical write-ups, project updates, and anything else that might be useful to the systems and ML community.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-we-work-on">What We Work On<a href="https://www.xtra.science/blog/2026/03/01/welcome#what-we-work-on" class="hash-link" aria-label="Direct link to What We Work On" title="Direct link to What We Work On" translate="no">​</a></h2>
-<p>Xtra Computing Group sits at the intersection of <strong>data management systems</strong>, <strong>parallel computing</strong>, and <strong>machine learning</strong>. We build things that are fast, scalable, and principled — from GPU-accelerated ML libraries to federated learning benchmarks to LLM privacy toolkits.</p>
-<p>A few highlights from recent work:</p>
-<ul>
-<li class=""><strong><a href="https://github.com/Xtra-Computing/LLM-PBE" target="_blank" rel="noopener noreferrer" class="">LLM-PBE</a></strong> (SIGMOD 2024, Best Paper Nomination) — a toolkit for evaluating data privacy risks in large language models.</li>
-<li class=""><strong><a href="https://github.com/Xtra-Computing/VertiBench" target="_blank" rel="noopener noreferrer" class="">VertiBench</a></strong> (ICLR 2024) — advancing feature distribution diversity in vertical federated learning benchmarks.</li>
-<li class=""><strong><a href="https://github.com/Xtra-Computing/ModelGo" target="_blank" rel="noopener noreferrer" class="">Model Go</a></strong> (WWW 2024, Oral) — a practical tool for machine learning license analysis.</li>
-<li class=""><strong><a href="https://github.com/Xtra-Computing/thundergbm" target="_blank" rel="noopener noreferrer" class="">ThunderGBM</a></strong> / <strong><a href="https://github.com/Xtra-Computing/thundersvm" target="_blank" rel="noopener noreferrer" class="">ThunderSVM</a></strong> — GPU-accelerated gradient boosting and SVM libraries with thousands of users.</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="who-can-write-here">Who Can Write Here<a href="https://www.xtra.science/blog/2026/03/01/welcome#who-can-write-here" class="hash-link" aria-label="Direct link to Who Can Write Here" title="Direct link to Who Can Write Here" translate="no">​</a></h2>
-<p>Everyone. Lab members, visiting researchers, collaborators, and anyone in the community with something interesting to say. If you have a research insight, a systems trick, a paper walkthrough, or a tutorial — this blog is for you.</p>
-<p>See <a href="https://github.com/Xtra-Computing/blog/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer" class="">CONTRIBUTING.md</a> for how to submit a post via pull request.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="links">Links<a href="https://www.xtra.science/blog/2026/03/01/welcome#links" class="hash-link" aria-label="Direct link to Links" title="Direct link to Links" translate="no">​</a></h2>
-<ul>
-<li class="">Lab website: <a href="https://www.xtra.science/" target="_blank" rel="noopener noreferrer" class="">www.xtra.science</a></li>
-<li class="">GitHub: <a href="https://github.com/Xtra-Computing" target="_blank" rel="noopener noreferrer" class="">github.com/Xtra-Computing</a></li>
-<li class="">HuggingFace: <a href="https://huggingface.co/Xtra-Computing" target="_blank" rel="noopener noreferrer" class="">huggingface.co/Xtra-Computing</a></li>
-</ul>]]></content>
-        <author>
-            <name>Xtra Computing Group</name>
-            <uri>https://www.xtra.science</uri>
-        </author>
-        <category label="announcement" term="announcement"/>
-    </entry>
     <entry>
         <title type="html"><![CDATA[The Ridge Computing System Workshop]]></title>
         <id>https://www.xtra.science/blog/2025/08/08/ridge-workshop</id>
