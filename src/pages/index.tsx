@@ -23,12 +23,6 @@ function HomepageHeader() {
             to="/blog">
             Read the Blog
           </Link>
-          <Link
-            className="button button--outline button--secondary button--lg"
-            style={{marginLeft: '1rem'}}
-            href="https://www.xtra.science">
-            Lab Website
-          </Link>
         </div>
       </div>
     </header>
