@@ -28,3 +28,14 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Compact table style */
+.compact-table table {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.compact-table td,
+.compact-table th {
+  padding: 0.5rem 0.75rem;
+}
