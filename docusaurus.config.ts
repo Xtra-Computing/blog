@@ -11,8 +11,8 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://Xtra-Computing.github.io',
-  baseUrl: '/blog/',
+  url: 'https://www.xtra.science',
+  baseUrl: '/',
 
   organizationName: 'Xtra-Computing',
   projectName: 'blog',
