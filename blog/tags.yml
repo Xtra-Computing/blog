@@ -17,3 +17,43 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+seminar:
+  label: Seminar
+  permalink: /seminar
+  description: Seminar events and talks
+
+iclr2025:
+  label: ICLR 2025
+  permalink: /iclr-2025
+  description: Posts related to ICLR 2025
+
+invited-speakers:
+  label: Invited Speakers
+  permalink: /invited-speakers
+  description: Invited speaker announcements and recaps
+
+workshop:
+  label: Workshop
+  permalink: /workshop
+  description: Workshop events and highlights
+
+systems:
+  label: Systems
+  permalink: /systems
+  description: Systems research topics
+
+heterogeneous-computing:
+  label: Heterogeneous Computing
+  permalink: /heterogeneous-computing
+  description: Heterogeneous hardware and software systems
+
+llm:
+  label: LLM
+  permalink: /llm
+  description: Large language model related posts
+
+fpga:
+  label: FPGA
+  permalink: /fpga
+  description: FPGA systems and acceleration

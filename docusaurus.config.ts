@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Xtra Computing Group',
   tagline: 'The Xtra Computing Group is working in exciting areas of Big data management systems (with special interests in cloud computing and emerging hardware systems), Parallel and distributed systems and Cloud Computing.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo-small.png',
 
   future: {
     v4: true,
@@ -19,7 +19,11 @@ const config: Config = {
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   i18n: {
     defaultLocale: 'en',
@@ -37,6 +41,9 @@ const config: Config = {
           editUrl: 'https://github.com/Xtra-Computing/blog/tree/main/',
         },
         blog: {
+          blogTitle: 'Xtra Computing Blog',
+          blogDescription:
+            'Research updates, events, and engineering insights from the Xtra Computing Group at NUS.',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -49,6 +56,12 @@ const config: Config = {
           blogSidebarTitle: 'Recent Posts',
           blogSidebarCount: 10,
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.7,
+          filename: 'sitemap.xml',
+          ignorePatterns: ['/markdown-page', '/tags/**', '/authors/**'],
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -56,8 +69,46 @@ const config: Config = {
     ],
   ],
 
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {type: 'application/ld+json'},
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'Xtra Computing Group',
+        url: 'https://www.xtra.science',
+        sameAs: ['https://github.com/Xtra-Computing'],
+      }),
+    },
+    {
+      tagName: 'script',
+      attributes: {type: 'application/ld+json'},
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'Xtra Computing Blog',
+        url: 'https://www.xtra.science',
+      }),
+    },
+  ],
+
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
+    metadata: [
+      {
+        name: 'description',
+        content:
+          'Official blog of Xtra Computing Group, NUS. Research updates, events, and systems/AI engineering insights.',
+      },
+      {
+        name: 'keywords',
+        content:
+          'Xtra Computing, NUS, systems, AI, machine learning, distributed systems, blog',
+      },
+      {property: 'og:site_name', content: 'Xtra Computing Group'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+    ],
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -77,11 +128,6 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'About',
-        },
-        {
-          href: 'https://github.com/Xtra-Computing/blog',
-          label: 'GitHub',
-          position: 'right',
         },
       ],
     },
@@ -122,7 +168,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Xtra Computing Group, NUS. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Xtra Computing Group, NUS.`,
     },
     prism: {
       theme: prismThemes.github,
