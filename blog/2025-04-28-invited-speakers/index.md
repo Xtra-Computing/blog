@@ -1,18 +1,19 @@
 ---
-title: "Invited Speakers Seminar — April 28, 2025"
-authors:
-  - xtra
+title: "Invited Speakers Seminar"
 tags: [seminar, iclr2025, invited-speakers]
 image: ./banner.png
 ---
 
-![Invited Speakers](./banner.png)
+We are delighted to invite every member to an exclusive seminar featuring research from authors with papers accepted at [**ICLR 2025**](https://iclr.cc/Conferences/2025). This is a unique opportunity to hear firsthand about their latest work and engage in insightful discussions.
 
-We hosted an exclusive seminar featuring five researchers with papers accepted at **ICLR 2025**, covering multimodal learning, graph foundation models, federated learning, LLM agent security, and cognitive limitations of LLMs.
+## Date
 
-**Date:** April 28, 2025 (Friday)
-**Time:** 13:00 – 18:00
-**Venue:** COM2-04-02 (Executive Classroom), 15 Computing Dr, Singapore 117418
+**April 28, 2025 (Friday)**  
+**Time:** 13:00 – 18:00  
+**Venue:** COM2-04-02 (Executive Classroom)  
+**Address:** [15 Computing Dr, Singapore 117418](https://maps.apple.com/?address=15%20Computing%20Dr,%20Singapore%20117418&auid=11986127657321991529&ll=1.294371,103.774045&lsp=9902&q=COM%202&t=r)
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSe4jpIXEIbHI5ULZ_S4ttW2FGfxqiAWuAvDgdw5i5HZ3CTYFw/viewform?usp=dialog" class="button button--primary button--sm" target="_blank" rel="noopener noreferrer">Registration Closed</a>
 
 <!-- truncate -->
 
@@ -54,20 +55,24 @@ We hosted an exclusive seminar featuring five researchers with papers accepted a
 
 ---
 
+<div className="compact-table">
+
 ## Program
 
 | Time | Session |
 |------|---------|
 | 12:30 – 13:10 | Tea and Snacks |
-| 13:10 – 13:20 | Sharing by Xtra Group — Qian Wang |
-| 13:20 – 13:50 | Divyam Madaan |
-| 13:50 – 14:30 | Zhikai Chen *(Remote)* |
-| 14:30 – 15:00 | Zexi Li |
+| 13:10 – 13:20 | **Sharing by Xtra Group**<br/>Qian Wang |
+| 13:20 – 13:50 | **[Multi-modal Learning: A Look Back and the Road Ahead](#multi-modal-learning-a-look-back-and-the-road-ahead)**<br/>Divyam Madaan |
+| 13:50 – 14:30 | **[Graph Foundation Models: Addressing Feature and Task Heterogeneity](#graph-foundation-models-addressing-feature-and-task-heterogeneity)**<br/>Zhikai Chen *(Remote)* |
+| 14:30 – 15:00 | **[Foundation Models under Model Parameter Perspective: Editing, Fusion, and Generation](#foundation-models-under-model-parameter-perspective-editing-fusion-and-generation)**<br/>Zexi Li |
 | 15:00 – 15:30 | Break & Discussion |
-| 15:30 – 16:00 | Hanrong Zhang |
-| 16:00 – 16:30 | Jen-Tse Huang |
+| 15:30 – 16:00 | **[Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents](#agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents)**<br/>Hanrong Zhang |
+| 16:00 – 16:30 | **[LLMs Do Not Have Human-Like Working Memories](#llms-do-not-have-human-like-working-memories)**<br/>Jen-Tse Huang |
 | 16:30 – 17:00 | Break & Discussion |
-| 17:00 – | Dinner Buffet |
+| 17:00 – onward | Dinner Buffet |
+
+</div>
 
 ---
 
@@ -78,9 +83,9 @@ We hosted an exclusive seminar featuring five researchers with papers accepted a
 
 <img src={require('./divyam-madaan.jpg').default} style={{float: 'right', width: 100, height: 100, borderRadius: '50%', objectFit: 'cover', marginLeft: '1rem', marginBottom: '0.5rem'}} />
 
-Divyam's research focuses on models that learn from multiple modalities and generalize across distribution shifts, with an emphasis on healthcare applications. He holds an M.S. from KAIST and has published at ICML, NeurIPS, CVPR, and ICLR (oral and spotlight).
+**Abstract:** Supervised multi-modal learning involves mapping multiple modalities to a target label. While previous studies in this field have largely focused on building new benchmarks or model architectures, meaningful progress remains limited. We argue that conventional methods capture in isolation either the inter-modality dependencies (the relationships between different modalities and the label) or the intra-modality dependencies (the relationships within a single modality and the label). These conventional approaches that rely solely on either inter- or intra-modality dependencies may not be optimal in general. We view the multi-modal learning problem from the lens of generative models where we consider the target as a source of multiple modalities and the interaction between them. Towards that end, we propose an inter- & intra-modality modeling (I2M2) framework, which captures and integrates both the inter- and intra-modality dependencies, leading to more accurate predictions. We evaluate our approach using real-world healthcare and vision-and-language datasets with state-of-the-art models, demonstrating superior performance over traditional methods focusing only on one type of modality dependency. 
 
-Supervised multi-modal learning maps multiple modalities to a target label. Prior work captures either *inter-modality* dependencies (relationships between modalities and the label) or *intra-modality* dependencies (relationships within a single modality) in isolation — but not both. This talk presents **I2M2** (Inter & Intra-Modality Modeling), a generative-model-based framework that integrates both types of dependencies, yielding improved predictions on real-world healthcare and vision-language datasets.
+**Bio:** Divyam Madaan is a fourth-year Ph.D. student at New York University, advised by Sumit Chopra and Kyunghyun Cho. His research focuses on developing models that can effectively learn from multiple modalities and generalize across distribution shifts, with a special emphasis on healthcare applications. Prior to NYU, he earned his M.S. in Computer Science from KAIST, where he worked on model robustness against adversarial examples and continual adaptation to evolving data and architectures. His work has been published at leading venues including ICML, NeurIPS, CVPR and ICLR, where he has also been recognized with oral and spotlight presentation awards.
 
 <div style={{clear: 'both'}} />
 
@@ -91,9 +96,9 @@ Supervised multi-modal learning maps multiple modalities to a target label. Prio
 
 <img src={require('./zhikai-chen.jpeg').default} style={{float: 'right', width: 100, height: 100, borderRadius: '50%', objectFit: 'cover', marginLeft: '1rem', marginBottom: '0.5rem'}} />
 
-Zhikai's research lies in graph machine learning and geometric deep learning, with a focus on scalable and transferable models for structured data. He has published at ICLR, NeurIPS, ICML, and LOG.
+**Abstract:** Foundation models have achieved remarkable success in recent years thanks to two key properties: **homogenization**, which unifies data and tasks under a single framework, and **emergence**, which ensures that new capabilities manifest as we scale up model size and training data. This ability to “dial up” performance simply by increasing scale is appealing for all modalities—especially graphs, where traditional approaches often demand task‑specific models trained from scratch. As a result, developing graph foundation models has become an important frontier for the entire field. In this talk, I will share my perspective on how to approach graph foundation modeling, centering on two fundamental challenges: **feature heterogeneity**, which arises from the diverse types and structures of graph data, and **task heterogeneity**, which requires a single model to excel at multiple graph tasks. While both are nontrivial, task heterogeneity remains particularly daunting. We argue that, before we can fully realize graph foundation models, we must first tackle these core theoretical problems in graph machine learning.
 
-Foundation models achieve their power through *homogenization* (a unified framework) and *emergence* (capabilities that scale with size and data). Applying these ideas to graphs requires overcoming two core challenges: **feature heterogeneity** (diverse types and structures of graph data) and **task heterogeneity** (a single model excelling at multiple tasks). This talk argues that task heterogeneity is the deeper theoretical obstacle and charts a path toward true graph foundation models.
+**Bio:** Zhikai Chen is a third-year PhD student at Michigan State University, mentored by Prof. Jiliang Tang. His research interest lies in graph machine learning, geometric deep learning, and especially the principles regarding building scalable and transferable deep learning models for structured data. His publications appear in venues like ICLR, NeurIPS, ICML, and LOG.
 
 <div style={{clear: 'both'}} />
 
@@ -104,9 +109,9 @@ Foundation models achieve their power through *homogenization* (a unified framew
 
 <img src={require('./zexi-li.jpg').default} style={{float: 'right', width: 100, height: 100, borderRadius: '50%', objectFit: 'cover', marginLeft: '1rem', marginBottom: '0.5rem'}} />
 
-Zexi focuses on LLMs, optimization, generalization, and personalization under federated and trustworthy setups, through the lens of parameter space and learning dynamics. He has 9 co-first-author papers at ICML, ICCV, NeurIPS, Cell Press Patterns, and IEEE TMC.
+**Abstract:** Understanding the model parameters of foundation models helps to understand the “physics” in AI and devise more effective algorithms. This talk mainly focuses on the model parameters, the behind insights, and the algorithms that can be built upon these insights, which include the issues from three perspectives: 1) how to edit LLMs’ parametric memory in a lifelong manner? 2) how to better improve model parameter fusion for federated learning? 3) how to generate personalized model parameters by diffusion models?
 
-Understanding model parameters helps uncover the "physics" of AI. This talk covers three perspectives: (1) **lifelong editing** of LLMs' parametric memory, (2) **parameter fusion** for better federated learning, and (3) **personalized model generation** via diffusion models over parameter space.
+**Bio:** Zexi Li is a visiting researcher at the University of Cambridge, and he is an upcoming PhD graduate of AI at Zhejiang University. He now focuses on LLMs and optimization, generalization, and personalization of deep learning models, especially under federated/collaborative/trustworthy setups, through the lens of parameter space and learning dynamics. He has published 9 (co)first-author top-tier machine learning papers, including ICML, ICCV, NeurIPS, Patterns (Cell Press), and IEEE Trans. on Mobile Computing.
 
 <div style={{clear: 'both'}} />
 
@@ -117,9 +122,9 @@ Understanding model parameters helps uncover the "physics" of AI. This talk cove
 
 <img src={require('./hanrong-zhang.jpeg').default} style={{float: 'right', width: 100, height: 100, borderRadius: '50%', objectFit: 'cover', marginLeft: '1rem', marginBottom: '0.5rem'}} />
 
-Hanrong's interests span multimodal LLMs, LLM-based agents, self-supervised learning, and trustworthy ML.
+**Abstract:** Although LLM-based agents, powered by Large Language Models (LLMs), can use external tools and memory mechanisms to solve complex real-world tasks, they may also introduce critical security vulnerabilities. However, the existing literature does not comprehensively evaluate attacks and defenses against LLM-based agents. To address this, we introduce Agent Security Bench (ASB), a comprehensive framework designed to formalize, benchmark, and evaluate the attacks and defenses of LLM-based agents, including 10 scenarios (e.g., e-commerce, autonomous driving, finance), 10 agents targeting the scenarios, over 400 tools, 27 different types of attack/defense methods, and 7 evaluation metrics. Based on ASB, we benchmark 10 prompt injection attacks, a memory poisoning attack, a novel Plan-of-Thought backdoor attack, 4 mixed attacks, and 11 corresponding defenses across 13 LLM backbones. Our benchmark results reveal critical vulnerabilities in different stages of agent operation, including system prompt, user prompt handling, tool usage, and memory retrieval, with the highest average attack success rate of 84.30%, but limited effectiveness shown in current defenses, unveiling important works to be done in terms of agent security for the community. We also introduce a new metric to evaluate the agents’ capability to balance utility and security.
 
-LLM-based agents can use external tools and memory to solve complex tasks — but also introduce critical security vulnerabilities. **ASB** is a comprehensive framework covering 10 scenarios, 10 agents, 400+ tools, and 27 attack/defense methods. Benchmarking across 13 LLM backbones reveals attack success rates as high as **84.30%**, with current defenses showing limited effectiveness, underscoring the urgency of agent security research.
+**Bio:** Hanrong Zhang is a Master student majoring in Computer Engineering at Zhejiang University. His research interests lie in machine learning (multimodal large language models, LLM-based agents, self-supervised learning) and trustworthy ML (MLLM/agent safety and security, responsible AIGC).
 
 <div style={{clear: 'both'}} />
 
@@ -130,9 +135,9 @@ LLM-based agents can use external tools and memory to solve complex tasks — bu
 
 <img src={require('./jen-tse-huang.jpeg').default} style={{float: 'right', width: 100, height: 100, borderRadius: '50%', objectFit: 'cover', marginLeft: '1rem', marginBottom: '0.5rem'}} />
 
-Jen-Tse's research evaluates single and multi-agent LLM systems through the lens of social science.
+**Abstract:** Human working memory is an active cognitive system that enables not only the temporary storage of information but also its processing and utilization. Without working memory, individuals may produce unreal conversations, struggle with tasks requiring mental reasoning, and exhibit self-contradiction. In this presentation, we demonstrate that Large Language Models (LLMs) lack this human-like cognitive ability, posing a significant challenge to achieving artificial general intelligence. We validate this claim through three experiments: (1) Number Guessing Game, (2) Yes or No Game, and (3) Math Magic. Experimental results on several model families indicate that current LLMs fail to exhibit human-like cognitive behaviors in these scenarios. By highlighting this limitation, we aim to encourage further research in developing LLMs with improved working memory capabilities.
 
-Human working memory enables not just temporary storage but active processing and utilization of information. Without it, individuals produce incoherent conversations, fail at mental reasoning, and self-contradict. Through three experiments — a Number Guessing Game, a Yes-or-No Game, and Math Magic — this talk demonstrates that current LLMs lack this cognitive ability across multiple model families, posing a fundamental challenge on the road to AGI.
+**Bio:** Jen-Tse Huang is a Postdoc in the Center for Language and Speech Processing (CLSP) at Johns Hopkins University, working with Prof. Mark Dredze. His research interest lies in evaluating single LLMs as individuals and multiple LLMs as a collective (multi-agent systems) through social science.
 
 <div style={{clear: 'both'}} />
 
@@ -140,4 +145,4 @@ Human working memory enables not just temporary storage but active processing an
 
 ## Organizers
 
-Event organized by **Qian Wang**, **Zhaomin Wu**, **Bingqiao Luo**, and **Junyi Hou** from Xtra Computing Group.
+Event organized by **Qian Wang** (main organizer), **Zhaomin Wu**, **Bingqiao Luo**, and **Junyi Hou** from Xtra Computing Group.
