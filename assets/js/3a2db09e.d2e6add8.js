@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkxtra_blog=globalThis.webpackChunkxtra_blog||[]).push([[121],{8070(a){a.exports=JSON.parse('{"tags":[{"label":"announcement","permalink":"/blog/tags/announcement","count":1}]}')}}]);
