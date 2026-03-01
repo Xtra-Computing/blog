@@ -1,25 +1,23 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+# Default author entry for Xtra Computing Group posts.
+# To add yourself, copy this block, change the key (e.g. "jane"),
+# and fill in your own details.
+
+xtra:
+  name: Xtra Computing Group
+  title: NUS School of Computing
+  url: https://www.xtra.science
+  image_url: https://github.com/Xtra-Computing.png
   page: true
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+    github: Xtra-Computing
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+# Example contributor entry — duplicate and customise:
+#
+# yourname:
+#   name: Your Full Name
+#   title: PhD Student / Postdoc / ...
+#   url: https://your-homepage.com
+#   image_url: https://github.com/your-github-handle.png
+#   page: true
+#   socials:
+#     github: your-github-handle

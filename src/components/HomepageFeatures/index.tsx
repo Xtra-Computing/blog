@@ -11,32 +11,35 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Big Data Management',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We build large-scale data management systems with a focus on cloud
+        computing and emerging hardware — from GPU-accelerated ML libraries to
+        federated learning platforms.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Parallel & Distributed Systems',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Our research spans parallel computing, distributed infrastructure, and
+        systems that push the boundaries of scale, efficiency, and reliability
+        across heterogeneous environments.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Cloud Computing & AI',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        From federated learning on non-IID data to LLM privacy assessment and
+        ML license tooling, we connect cloud-scale systems with the latest
+        advances in machine learning.
       </>
     ),
   },

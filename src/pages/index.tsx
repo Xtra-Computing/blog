@@ -20,8 +20,14 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/blog">
+            Read the Blog
+          </Link>
+          <Link
+            className="button button--outline button--secondary button--lg"
+            style={{marginLeft: '1rem'}}
+            href="https://www.xtra.science">
+            Lab Website
           </Link>
         </div>
       </div>
@@ -33,8 +39,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={siteConfig.title}
+      description="Research blog of Xtra Computing Group at NUS — big data, distributed systems, and cloud computing.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
