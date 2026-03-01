@@ -121,11 +121,11 @@ These workloads bring new challenges in responsiveness, state management, and re
 <!-- -->Email: <a href="mailto:hongshi@u.nus.edu" target="_blank" rel="noopener noreferrer" class="">hongshi@u.nus.edu</a></p>
 <p><strong>Junyi Hou</strong> · PhD Student, NUS<br>
 <!-- -->Email: <a href="mailto:e0945797@u.nus.edu" target="_blank" rel="noopener noreferrer" class="">e0945797@u.nus.edu</a></p>]]></content:encoded>
-            <category>workshop</category>
-            <category>systems</category>
-            <category>heterogeneous-computing</category>
-            <category>llm</category>
-            <category>fpga</category>
+            <category>Workshop</category>
+            <category>Systems</category>
+            <category>Heterogeneous Computing</category>
+            <category>LLM</category>
+            <category>FPGA</category>
         </item>
         <item>
             <title><![CDATA[Invited Speakers Seminar]]></title>
@@ -183,9 +183,9 @@ These workloads bring new challenges in responsiveness, state management, and re
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="organizers">Organizers<a href="https://www.xtra.science/blog/2025/04/28/invited-speakers#organizers" class="hash-link" aria-label="Direct link to Organizers" title="Direct link to Organizers" translate="no">​</a></h2>
 <p>Event organized by <strong>Qian Wang</strong> (main organizer), <strong>Zhaomin Wu</strong>, <strong>Bingqiao Luo</strong>, and <strong>Junyi Hou</strong> from Xtra Computing Group.</p>]]></content:encoded>
-            <category>seminar</category>
-            <category>iclr2025</category>
-            <category>invited-speakers</category>
+            <category>Seminar</category>
+            <category>ICLR 2025</category>
+            <category>Invited Speakers</category>
         </item>
     </channel>
 </rss>

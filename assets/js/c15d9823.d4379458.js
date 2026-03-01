@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkxtra_blog=globalThis.webpackChunkxtra_blog||[]).push([[146],{9328(t){t.exports=JSON.parse('{"metadata":{"permalink":"/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Research updates, events, and engineering insights from the Xtra Computing Group at NUS.","blogTitle":"Xtra Computing Blog"}}')}}]);

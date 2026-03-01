@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.xtra.science/blog"/>
     <subtitle>Xtra Computing Group Blog</subtitle>
-    <icon>https://www.xtra.science/img/favicon.ico</icon>
+    <icon>https://www.xtra.science/img/logo-small.png</icon>
     <entry>
         <title type="html"><![CDATA[The Ridge Computing System Workshop]]></title>
         <id>https://www.xtra.science/blog/2025/08/08/ridge-workshop</id>
@@ -120,11 +120,11 @@ These workloads bring new challenges in responsiveness, state management, and re
 <!-- -->Email: <a href="mailto:hongshi@u.nus.edu" target="_blank" rel="noopener noreferrer" class="">hongshi@u.nus.edu</a></p>
 <p><strong>Junyi Hou</strong> · PhD Student, NUS<br>
 <!-- -->Email: <a href="mailto:e0945797@u.nus.edu" target="_blank" rel="noopener noreferrer" class="">e0945797@u.nus.edu</a></p>]]></content>
-        <category label="workshop" term="workshop"/>
-        <category label="systems" term="systems"/>
-        <category label="heterogeneous-computing" term="heterogeneous-computing"/>
-        <category label="llm" term="llm"/>
-        <category label="fpga" term="fpga"/>
+        <category label="Workshop" term="Workshop"/>
+        <category label="Systems" term="Systems"/>
+        <category label="Heterogeneous Computing" term="Heterogeneous Computing"/>
+        <category label="LLM" term="LLM"/>
+        <category label="FPGA" term="FPGA"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Invited Speakers Seminar]]></title>
@@ -182,8 +182,8 @@ These workloads bring new challenges in responsiveness, state management, and re
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="organizers">Organizers<a href="https://www.xtra.science/blog/2025/04/28/invited-speakers#organizers" class="hash-link" aria-label="Direct link to Organizers" title="Direct link to Organizers" translate="no">​</a></h2>
 <p>Event organized by <strong>Qian Wang</strong> (main organizer), <strong>Zhaomin Wu</strong>, <strong>Bingqiao Luo</strong>, and <strong>Junyi Hou</strong> from Xtra Computing Group.</p>]]></content>
-        <category label="seminar" term="seminar"/>
-        <category label="iclr2025" term="iclr2025"/>
-        <category label="invited-speakers" term="invited-speakers"/>
+        <category label="Seminar" term="Seminar"/>
+        <category label="ICLR 2025" term="ICLR 2025"/>
+        <category label="Invited Speakers" term="Invited Speakers"/>
     </entry>
 </feed>

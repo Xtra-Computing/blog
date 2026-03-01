@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /markdown-page
+
+Sitemap: https://www.xtra.science/sitemap.xml
